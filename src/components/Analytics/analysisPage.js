@@ -11,7 +11,7 @@ import shareSymbol from "./../../Assets/shareSymbol.png";
 
 const BASE_URL = "http://localhost:8000";
 const CLIENT_URL =
-  "http://localhost:3000";
+  "https://cuvvete-frontend-part-ten.vercel.app/";
 
 
 
