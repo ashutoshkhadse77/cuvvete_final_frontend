@@ -1,0 +1,130 @@
+.dashboard-content{
+    background-color: #EDEDED;
+    width: 100%
+}
+.quiz-info {
+  display: flex;
+  position: relative;
+  margin-top: 4%;
+  margin-left: 5%;
+}
+
+.quizzes-created,.questions-created,.impressions-created {
+  min-width: 21vw;
+  min-height: 14vh;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: #fff;
+  margin-right: 6%;
+}
+
+.quiz-count,.questions-count,.impressions-count{
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  margin-top: -10%;
+}
+
+.quiz-count p,.questions-count p,.impressions-count p{
+    color: #FF5D01;
+    font-family: Poppins;
+    font-size: 3.2vw;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-right: 5%;
+}
+.quiz-count h2,.questions-count h2,.impressions-count h2,.quizzes-created h2,.questions-created h2,.impressions-created h2{
+    color: #FF5D01;
+    font-family: Poppins;
+    font-size: 1.7vw;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.quizzes-created h2,.questions-created h2,.impressions-created h2{
+    margin-top: -20%;
+}
+
+.questions-count p,.questions-created h2,.questions-count h2{
+    color: #60B84B;
+}
+.impressions-count p,.impressions-created h2,.impressions-count h2{
+    color: #5076FF;
+}
+
+.trending-quiz-data{
+    height: 50vh;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 5%;
+}
+.trending-quiz-text{
+    color: #474444;
+    font-family: Poppins;
+    font-size: 2.5vw;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    display: flex;
+    margin-left:5%;
+    margin-top: 5%;
+}
+
+.each-trending-quiz{
+    min-width: 15vw;
+    height: 12vh;
+    flex-shrink: 0;
+    margin-right: 2%;
+    border-radius: 5px;
+    background: #FFF;
+}
+
+.each-trending-quiz h1{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 6%;
+    color: #474444;
+    font-family: Poppins;
+    font-size: 1.6vw;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.each-trending-question-impressions{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    margin-top: -4.2%;
+    margin-left: 11.5%;
+
+}
+.impressions-symbol{
+    margin-left: 8%;
+    flex-shrink: 0;
+}
+.created-date{
+    color: #60B84B;
+    font-family: Poppins;
+    font-size: 1vw;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    display: flex;
+    justify-content: flex-start;
+    margin-left:6%;
+    margin-top: -5%;
+}
+.impressions-count-number{
+    color: #FF5D01 !important;
+    font-family: Poppins;
+    font-size: 1.1vw !important;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+
+
+
